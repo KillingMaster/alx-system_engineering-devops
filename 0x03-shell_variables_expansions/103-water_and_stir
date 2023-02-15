@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%d\n" $(( 16#"$WATER" + 16#"$STIR" )) | tr '0123456789abcdef' 'bestchol0123456789'
